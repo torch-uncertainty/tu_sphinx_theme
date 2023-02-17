@@ -12901,11 +12901,11 @@ p a:hover {
 p a:link,
 p a:visited,
 p a:hover {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 .wy-breadcrumbs li a {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 ul.pytorch-breadcrumbs {
@@ -12919,7 +12919,7 @@ ul.pytorch-breadcrumbs li {
 }
 
 ul.pytorch-breadcrumbs a {
-  color: #ee4c2c;
+  color: #29b99a;
   text-decoration: none;
 }
 
@@ -13016,7 +13016,7 @@ ul.pytorch-breadcrumbs a {
 }
 
 .rst-content footer .rating-container .stars-outer .star-fill {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 .rst-content footer div[role=contentinfo] {
@@ -13208,7 +13208,7 @@ article.pytorch-article .sphx-glr-thumbcontainer .figure a.reference.internal {
 
 @media screen and (min-width: 768px) {
   article.pytorch-article .sphx-glr-thumbcontainer:after {
-    background-color: #ee4c2c;
+    background-color: #29b99a;
   }
 }
 
@@ -13234,7 +13234,7 @@ article.pytorch-article .class .attribute dt {
   position: relative;
   background: #f3f4f7;
   padding: 0.5rem;
-  border-left: 3px solid #ee4c2c;
+  border-left: 3px solid #29b99a;
   word-wrap: break-word;
   padding-right: 100px;
 }
@@ -13270,7 +13270,7 @@ article.pytorch-article .class .attribute dt a {
 article.pytorch-article .function dt:hover .viewcode-link,
 article.pytorch-article .class dt:hover .viewcode-link,
 article.pytorch-article .attribute dt:hover .viewcode-link {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 article.pytorch-article .function .anchorjs-link,
@@ -13398,7 +13398,7 @@ article.pytorch-article .attribute .has-code {
 
 article.pytorch-article .class dt {
   border-left: none;
-  border-top: 3px solid #ee4c2c;
+  border-top: 3px solid #29b99a;
   padding-left: 4em;
 }
 
@@ -13414,7 +13414,7 @@ article.pytorch-article .class dd .docutils dt {
 article.pytorch-article .class em.property {
   text-transform: uppercase;
   font-style: normal;
-  color: #ee4c2c;
+  color: #29b99a;
   font-size: 1rem;
   letter-spacing: 0;
   padding-right: 0.75rem;
@@ -13428,7 +13428,7 @@ article.pytorch-article .class dl dt em.property {
 
 article.pytorch-article .class .method dt,
 article.pytorch-article .class .staticmethod dt {
-  border-left: 3px solid #ee4c2c;
+  border-left: 3px solid #29b99a;
   border-top: none;
 }
 
@@ -13734,7 +13734,7 @@ article.pytorch-article .admonition>p:last-of-type {
 
 @media screen and (min-width: 768px) {
   .pytorch-article div.sphx-glr-download a:after {
-    background-color: #ee4c2c;
+    background-color: #29b99a;
   }
 }
 
@@ -13820,7 +13820,7 @@ article.pytorch-article .wy-table-responsive table tbody td {
 
 article.pytorch-article .wy-table-responsive table tbody td .pre {
   background: #ffffff;
-  color: #ee4c2c;
+  color: #29b99a;
   font-size: 87.5%;
 }
 
@@ -13915,33 +13915,33 @@ article.pytorch-article .math img {
 a:link,
 a:visited,
 a:hover {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 ::-webkit-input-placeholder {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 ::-moz-placeholder {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 :-ms-input-placeholder {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 :-moz-placeholder {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 @media screen and (min-width: 768px) {
   .site-footer a:hover {
-    color: #ee4c2c;
+    color: #29b99a;
   }
 }
 
 .docs-tutorials-resources a {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 .header-holder {
@@ -13950,21 +13950,21 @@ a:hover {
 }
 
 .header-holder .main-menu ul li.active:after {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 .header-holder .main-menu ul li.active a {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 @media screen and (min-width: 1100px) {
   .header-holder .main-menu ul li a:hover {
-    color: #ee4c2c;
+    color: #29b99a;
   }
 }
 
 .mobile-main-menu.open ul li.active a {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 .version {
@@ -14793,7 +14793,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
 
 .pytorch-left-menu li.toctree-l1.current>a,
 .pytorch-right-menu li.toctree-l1.current>a {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 .pytorch-left-menu li.toctree-l1.current>a:before,
@@ -14804,7 +14804,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
   left: -15px;
   top: -10%;
   font-size: 1.375rem;
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 @media screen and (min-width: 1101px) {
@@ -14912,12 +14912,12 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
 }
 
 .pytorch-right-menu li.active>a {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 .pytorch-right-menu li.active>a span.pre,
 .pytorch-right-menu li.active>a:before {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 .pytorch-right-menu li.active>a:after {
@@ -14997,7 +14997,7 @@ article.pytorch-article .tutorials-callout-container .btn.callout-button a {
 }
 
 #pytorch-right-menu .side-scroll-highlight {
-  color: #ee4c2c;
+  color: #29b99a;
 }
 
 .header-container {
