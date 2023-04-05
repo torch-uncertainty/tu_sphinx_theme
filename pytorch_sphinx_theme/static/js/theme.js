@@ -946,7 +946,7 @@ require = (function () { function r(e, n, t) { function o(i, f) { if (!n[i]) { i
       var tutorialUrlArray = $("#tutorial-type").text().split('/');
       tutorialUrlArray[0] = tutorialUrlArray[0] + "_source"
 
-      var githubLink = "https://github.com/torch-uncertainty/blob/main/" + tutorialUrlArray.join("/") + ".py",
+      var githubLink = "https://github.com/ENSTA-U2IS/torch-uncertainty/blob/main/" + tutorialUrlArray.join("/") + ".py",
         notebookLink = $(".reference.download")[1].href,
         notebookDownloadPath = notebookLink.split('_downloads')[1],
         colabLink = "https://colab.research.google.com/github/torch-uncertainty/tutorials/blob/gh-pages/_downloads" + notebookDownloadPath;
