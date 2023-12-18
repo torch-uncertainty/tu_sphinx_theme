@@ -10,6 +10,7 @@ setup(
     url="https://github.com/torch-uncertainty/tu_sphinx_theme",
     docs_url="https://github.com/torch-uncertainty/tu_sphinx_theme",
     description="TorchUncertainty Sphinx Theme",
+    long_description="TorchUncertainty Sphinx Theme - https://torch-uncertainty.github.io/"
     py_modules=["tu_sphinx_theme"],
     packages=["tu_sphinx_theme"],
     include_package_data=True,
