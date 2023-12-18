@@ -2,9 +2,9 @@ from setuptools import setup
 from tu_sphinx_theme import __version__
 
 # Taken from pytorch_sphinx_theme
-with open('README.rst') as f:
+with open('README.md') as f:
     readme = f.read()
-    
+
 setup(
     name="tu_sphinx_theme",
     version=__version__,
