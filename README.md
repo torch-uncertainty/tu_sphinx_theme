@@ -4,15 +4,15 @@ This theme is adapted from PyTorch Sphinx Theme, with more configurations allowe
 ## Getting Started
 Add dependencies to `requirements.txt`,
 ```
--e git+https://github.com/open-mmlab/pytorch_sphinx_theme.git#egg=pytorch_sphinx_theme
+-e git+https://github.com/open-mmlab/tu_sphinx_theme.git#egg=tu_sphinx_theme
 sphinx_copybutton
 ```
 In `docs/conf.py`:
 ```python
-import pytorch_sphinx_theme
+import tu_sphinx_theme
 
-html_theme = 'pytorch_sphinx_theme'
-html_theme_path = [pytorch_sphinx_theme.get_html_theme_path()]
+html_theme = 'tu_sphinx_theme'
+html_theme_path = [tu_sphinx_theme.get_html_theme_path()]
 
 # Ignore >>> when copying code
 copybutton_prompt_text = r'>>> |\.\.\. '
@@ -159,8 +159,8 @@ The resulting site is a demo.
 When you are ready to submit a PR with your changes you can first test that your changes have been applied correctly against either the PyTorch Docs or Tutorials repo:
 
 1. Run the `grunt build` task on your branch and commit the build to Github.
-2. In your local docs or tutorials repo, remove any existing `pytorch_sphinx_theme` packages in the `src` folder (there should be a `pip-delete-this-directory.txt` file there)
-3. In `requirements.txt` replace the existing git link with a link pointing to your commit or branch, e.g. `-e git+git://github.com/{ your repo }/pytorch_sphinx_theme.git@{ your commit hash }#egg=pytorch_sphinx_theme`
+2. In your local docs or tutorials repo, remove any existing `tu_sphinx_theme` packages in the `src` folder (there should be a `pip-delete-this-directory.txt` file there)
+3. In `requirements.txt` replace the existing git link with a link pointing to your commit or branch, e.g. `-e git+git://github.com/{ your repo }/tu_sphinx_theme.git@{ your commit hash }#egg=tu_sphinx_theme`
 4. Install the requirements `pip install -r requirements.txt`
 5. Remove the current build. In the docs this is `make clean`, tutorials is `make clean-cache`
 6. Build the static site. In the docs this is `make html`, tutorials is `make html-noplot`
@@ -205,11 +205,11 @@ make html
 
 Once these are successful, navigate to the `conf.py` file in each project. In the Docs these are at `./docs/source`. The Tutorials one can be found in the root directory.
 
-In `conf.py` change the html theme to `pytorch_sphinx_theme` and point the html theme path to this repo's local folder, which will end up looking something like:
+In `conf.py` change the html theme to `tu_sphinx_theme` and point the html theme path to this repo's local folder, which will end up looking something like:
 
 ```
-html_theme = 'pytorch_sphinx_theme'
-html_theme_path = ["../../../pytorch_sphinx_theme"]
+html_theme = 'tu_sphinx_theme'
+html_theme_path = ["../../../tu_sphinx_theme"]
 ```
 
 Next create a file `.env.json` in the root of this repo with some keys/values referencing the local folders of the Docs and Tutorials repos:
