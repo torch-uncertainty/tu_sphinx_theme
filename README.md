@@ -1,6 +1,8 @@
 # Introduction
 This theme is adapted from PyTorch Sphinx Theme, with more configurations allowed.
 
+Used on [https://torch-uncertainty.github.io/](https://torch-uncertainty.github.io/) for [TorchUncertainty](https://github.com/ENSTA-U2IS/torch-uncertainty).
+
 ## Getting Started
 Add dependencies to `requirements.txt`,
 ```
