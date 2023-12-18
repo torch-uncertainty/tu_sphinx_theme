@@ -2,9 +2,6 @@ from setuptools import setup
 from tu_sphinx_theme import __version__
 
 # Taken from pytorch_sphinx_theme
-with open('README.md') as f:
-    readme = f.read()
-
 setup(
     name="tu_sphinx_theme",
     version=__version__,
@@ -13,7 +10,7 @@ setup(
     url="https://github.com/torch-uncertainty/tu_sphinx_theme",
     docs_url="https://github.com/torch-uncertainty/tu_sphinx_theme",
     description="TorchUncertainty Sphinx Theme",
-    long_description=readme,
+    readme = "README.md",
     py_modules=["tu_sphinx_theme"],
     packages=["tu_sphinx_theme"],
     include_package_data=True,
